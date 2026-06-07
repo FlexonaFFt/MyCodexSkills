@@ -1,0 +1,4 @@
+interface:
+  display_name: "Karpwrite"
+  short_description: "Plan, write, and revise with restraint"
+  default_prompt: "Use $karpwrite to write or edit text with explicit assumptions, minimal scope, and goal-driven verification."

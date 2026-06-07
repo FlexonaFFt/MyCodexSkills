@@ -1,0 +1,4 @@
+interface:
+  display_name: "Karp"
+  short_description: "Plan, edit, and verify with restraint"
+  default_prompt: "Use $karp to make the smallest correct code change with explicit assumptions and verification."

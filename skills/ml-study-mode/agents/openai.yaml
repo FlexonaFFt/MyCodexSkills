@@ -1,0 +1,4 @@
+interface:
+  display_name: "ML Study Mode"
+  short_description: "Train for Middle+ ML interviews"
+  default_prompt: "Use $ml-study-mode to study an ML interview topic or run a mock interview."

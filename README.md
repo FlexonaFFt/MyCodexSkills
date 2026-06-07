@@ -1,9 +1,22 @@
-# Autonomous Dev Team Skill
+# My Codex Skills
 
-This repository contains a Codex skill called `autonomous-dev-team` for running autonomous software delivery through a single entry point: TeamLead. You provide one high-level task, and TeamLead decomposes it, assigns execution to `01developer`, `02developer`, and `03developer`, routes verification to `qatester`, and drives the workflow to completion.
+Personal Codex skills.
 
-The core principle is separation of concerns between communication and implementation. The `team/` directory is used only for coordination artifacts (board, handoffs, role outputs, QA reports, final summary), while all real product code is created or modified in the project’s normal source directories outside `team/`.
+## Skills
 
-# Installation
+- `autonomous-dev-team` - TeamLead workflow for autonomous development.
+- `karp` - Coding discipline for focused implementation, fixes, and refactors.
+- `karpwrite` - Writing discipline for focused drafting, editing, and polishing.
+- `ml-study-mode` - Adaptive ML interview preparation and mock interview mode.
 
-To install the skill, copy `/Users/flexonafft/my-codex-team/autonomous-dev-team` into `~/.codex/skills/`, restart Codex, and invoke it with `Use $autonomous-dev-team.` in any project.
+## Install
+
+Copy a skill directory into `~/.codex/skills/`.
+
+Example:
+
+```sh
+cp -R skills/autonomous-dev-team ~/.codex/skills/
+```
+
+Restart Codex after installing or updating a skill.
